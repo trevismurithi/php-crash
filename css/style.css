@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color:black;
+    box-shadow:2px 2px gray; 
+    display: inline-block;
+    text-align: center;
+}
+
+
+img{
+    width:50px;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+}
+.signup-link{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form{
+    display: inline-block;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+button{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signup-section{
+    text-align: center;
+}

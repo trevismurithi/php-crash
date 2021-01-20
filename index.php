@@ -1,22 +1,13 @@
-<?php include_once 'includes/db.inc.php'?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-</head>
-<body>
+
+<?php require "header.php";?>
+
+<main>
     <?php
-        // echo "test123<br>";
-        // echo password_hash("test123",PASSWORD_DEFAULT);
-
-        $input  = "test123";
-        $hashed = password_hash("test123",PASSWORD_DEFAULT);
-        echo password_verify($input,$hashed);
-
+        if(isset($_SESSION['uid_users'])){
+            echo "<p>You are logged in</p>";
+        }else{
+            echo "<p>You are logged out</p>";
+        }
     ?>
-</body>
-</html>
-</html>
+</main>
+<?php require "footer.php";?>
